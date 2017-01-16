@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script type="text/javascript" src="js/rem.js"></script>
+</head>
+<body>
+<!-- 搜索页 -->
+	<div id="address" class="section">
+		<h1><a href="#rlist">地址搜索页</a></h1>
+		<h2 class="city-name"><a id="cn" href="#citylist">上海</a></h2>
+		<div class="k_search">
+			<input type="text" id="keyword">
+			<input class="btn" type="button" value="饿了么搜索">
+			<input class="btn" type="button" value="百度搜索">
+		</div>
+
+		<div class="cons">
+			<ul class="cons-list">
+				<!-- <li><a href="javascript:;"><span>中央大街</span><i>按时发斯蒂芬</i></a></li> -->
+			</ul>
+		</div>
+
+	</div>
+
+<!-- 餐厅列表页 -->
+	<div id="rlist" class="section">
+	<!-- 头部 -->
+		<div class="rl-header">
+			<a class="rl-search-icon" href="javascript:;"></a>
+			<a class="rl-name" href="#detail">餐厅列表页</a>
+			<a class="rl-login" href="javascript:;">登录</a>
+		</div>
+	<!-- banner部分 -->
+		<div class="banner">
+		<!-- banner内容部分 -->
+			<ul class="banner-cons">
+				<!-- <li class="bc-item">
+					<a class="bl-item" href="javascript:;"> 
+						<div class="bl-item-img">
+							<img src="//fuss10.elemecdn.com/b/7e/d1890cf73ae6f2adb97caa39de7fcjpeg.jpeg?imageMogr/format/webp/" alt="">
+						</div>
+						<span class="bl-item-txt">sadf</span>
+					</a>
+					
+				</li>
+				<li class="bc-item"></li> -->
+			</ul>
+		<!-- banner页标部分 -->
+			<ul class="banner-index">
+				<!-- <li class="active"></li>
+				<li></li> -->
+			</ul>
+
+		</div>
+	<!-- 店家列表部分 -->
+		<div class="rl-content">
+			
+			<h2>附近商家</h2>
+
+			<div class="rl-item-list"></div>
+
+			<!-- <div class="rl-item">	
+				<div class="rl-item-l">
+					<img class="logo" _v-01bcfc2b="" src="//fuss10.elemecdn.com/2/a6/45b39b6d35b136fd7d55152609c91jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/">
+				</div>
+				<div class="rl-item-r">
+					<h3>麻辣吃货（道里经纬街）</h3>
+					<div class="pj">
+						<span class="star-icon">
+							<i></i>
+							<i></i>
+							<i></i>
+							<i></i>
+							<i></i>
+						</span>
+						<span class="star">5</span>
+						<span class="sale-mount">月售<em>38</em>单</span>
+					</div>
+					<p class="fy">
+						<span class="fy-l">￥<i>0</i>起送/配送费￥<em>9</em></span>
+						<span class="fy-r"><i>1.59</i>km / <b><em>29</em>分钟</b></span>
+					</p>
+				</div>
+			</div> -->
+
+			<div class="more">
+				<p>正在载入更多商家...</p>
+			</div>
+		</div>
+
+	</div>
+<!-- 商品详情页 -->
+	<div id="detail" class="section"><a href="#citylist">餐厅详情页</a></div>
+<!-- 城市列表页 -->
+	<div id="citylist" class="section">
+		
+		<div class="header">
+				
+			<p>
+				<a href="javascript:;">登录</a>
+				<span>|</span>
+				<a href="javascript:;">注册</a>
+			</p>
+
+		</div>
+
+		<div class="curCity">
+			
+			<div class="top">
+				<p>
+					<span class="txt1">当前定位城市</span>
+					<span class="txt2">定位不准时，请在城市列表中选择</span>
+				</p>
+			</div>
+			<div class="bottom">
+				
+				<span>上海</span>
+				<a href="javascript:;"></a>
+
+			</div>
+
+		</div>
+
+		<div class="hotCity item">
+			
+			<h2>热门城市</h2>
+
+			<ul class="hc_list">
+				
+			</ul>
+
+		</div>
+
+		<div class="citys_index item">
+			<h2>城市索引</h2>
+			<ul class="item_list c_index"></ul>
+		</div>
+
+		<div class="citys">
+			
+			<!-- <div class="item">
+				<h2>A<span>(按字母排序)</span></h2>
+				<ul class="item_list"></ul>
+			</div> -->
+
+		</div>
+
+	</div>
+
+	<script src="js/zepto.js"></script>
+	<script src="js/module/addressObj.js"></script>
+	<script src="js/module/citylistObj.js"></script>
+	<script src="js/module/detailObj.js"></script>
+	<script src="js/module/rlistObj.js"></script>	
+	<script src="js/index.js"></script>
+	
+</body>
+</body>
+</html>
